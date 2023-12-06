@@ -18,14 +18,14 @@
                 </legend>
                 <table cellpadding="0" cellspacing="0">
                     <tr>
-                        <td><label for="">First Name &nbsp; </label></td>
+                        <td><label for="first-name">First Name &nbsp; </label></td>
                         <td> : &nbsp;</td>
-                        <td><input type="text"></td>
+                        <td><input type="text" name="first-name" placeholder="ex:-Ibrahim"></td>
                     </tr>
                     <tr>
-                        <td><label for="">Second Name &nbsp;</label></td>
+                        <td><label for="second-name">Second Name &nbsp;</label></td>
                         <td>:&nbsp;</td>
-                        <td><input type="text"></td>
+                        <td><input type="text" name="second-name" placeholder="ex:-Mohamed"></td>
                     </tr>
                 </table>
             </fieldset>
@@ -34,22 +34,22 @@
                 <tr>
                     <td><label for="phone">Your phone</label></td>
                     <td> : &nbsp;</td>
-                    <td><input type="text"></td>
+                    <td><input type="number"name="phone" placeholder="ex:-01099532336"></td>
                 </tr>
                 <tr>
-                    <td><label for="">Email &nbsp;</label></td>
+                    <td><label for="email">Email &nbsp;</label></td>
                     <td>:&nbsp;</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" name="email" placeholder="ex:-hema@gmail.com"></td>
                 </tr>
                 <tr>
-                    <td><label for="">Password &nbsp;</label></td>
+                    <td><label for="pass">Password &nbsp;</label></td>
                     <td>:&nbsp;</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" name="pass" placeholder="ex:-Hema123#@"></td>
                 </tr>
                 <tr>
-                    <td><label for="">re-password &nbsp;</label></td>
+                    <td><label for="re-pass">re-password &nbsp;</label></td>
                     <td>:&nbsp;</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" name="re-pass" placeholder="ex:-Hema123#@"></td>
                 </tr>
             </table>
             <br><br><br>
@@ -64,8 +64,11 @@
             <br>
             <input type="checkbox" name="check" value="dataStructure">
             <label for="check">DataStructure</label>
+            <br>
+            <input type="checkbox" name="check" value="Algorithm">
+            <label for="check">Algorithm</label>
             <br><br>
-            <select name="language" id="">
+            <select name="language">
                 <option value="html">HTML</option>
                 <option value="css">css</option>
                 <option value="js">js</option>
@@ -78,7 +81,6 @@
         <br><br><br><br>
     </fieldset>
 </body>
-
 </html>
 
 
